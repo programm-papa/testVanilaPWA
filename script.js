@@ -9,6 +9,7 @@ async function run() {
 
   const button = document.getElementById("subscribe");
   button.addEventListener("click", async () => {
+    alert(1);
     // Triggers popup to request access to send notifications
     const result = await window.Notification.requestPermission();
 
